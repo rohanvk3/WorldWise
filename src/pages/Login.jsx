@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import { useAuth } from "../contexts/AuthContext";
 
 export default function Login() {
-  const [email, setEmail] = useState("jack@example.com");
+  const [email, setEmail] = useState("rohan@example.com");
   const [password, setPassword] = useState("qwerty");
 
   const navigate = useNavigate();
