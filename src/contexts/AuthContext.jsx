@@ -8,10 +8,10 @@ const initialState = {
 };
 
 const FAKE_USER = {
-  name: "Jack",
-  email: "jack@example.com",
+  name: "Rohan",
+  email: "rohan@example.com",
   password: "qwerty",
-  avatar: "https://i.pravatar.cc/100?u=zz",
+  avatar: "../public/img.jpg",
 };
 
 function reducer(state, action) {
